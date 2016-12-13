@@ -91,6 +91,7 @@ class HotkeysDialog {
             <Dialog
                 {...this.componentProps}
                 className={classNames(this.componentProps.className, "pt-hotkey-dialog")}
+                canEscapeKeyClose={true}
                 inline
                 isOpen={this.isDialogShowing}
                 onClose={this.hide}
